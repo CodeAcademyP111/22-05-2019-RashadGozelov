@@ -1,0 +1,48 @@
+#silder{
+    position: relative;
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    top: 60px;
+}
+
+#silder .img{
+    /* width: 100%;
+    height: 100%; */
+}
+
+#silder .img .item{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#silder .img .item img{
+    width: 100%;
+    height: 100%;
+}
+
+#span{}
+
+#span .navigation{
+    position: absolute;
+    color: white;
+    opacity: 0.7;
+}
+
+#span .right{
+    top: 200px;
+    right: 30px;
+    font-size: 100px;
+}
+
+#span .left{
+    top: 200px;
+    font-size: 100px;
+    left: 30px;
+}
+
+.active{
+    opacity: 1 !important;
+}
